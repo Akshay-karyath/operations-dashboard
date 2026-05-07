@@ -1,16 +1,85 @@
-# React + Vite
+#  Operations Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a modern **Operations Dashboard UI** built using React and Tailwind CSS.
+It simulates a real-world admin panel used in food delivery or business operations systems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The dashboard focuses on clean UI design, reusable components, and a structured layout similar to production-level applications.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
 
-## Expanding the ESLint configuration
+* React (Vite)
+* Tailwind CSS
+* Lucide React (Icons)
+* Recharts (Charts)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Features
+
+*  KPI Cards (Orders, Revenue, Customers, Growth)
+*  Orders Table with Search & Filter
+*  Real-time search functionality
+*  Order Details Modal (on row click)
+*  Revenue Chart
+*  Sales Summary Charts
+*  Sales Performance Tracker
+*  Trending Menu Section
+*  User Statistics Card
+*  Clean & Modern UI Design
+*  Fully Responsive Layout
+
+---
+
+##  Folder Structure
+
+src/
+├── components/
+├── pages/
+├── api/
+├── assets/
+
+---
+
+##  Setup Instructions
+
+1. Clone the repository
+   git clone https://github.com/Akshay-karyath/operations-dashboard.git
+
+2. Navigate into the project
+   cd operations-dashboard
+
+3. Install dependencies
+   npm install
+
+4. Run the development server
+   npm run dev
+
+---
+
+##  Architecture Overview
+
+The project follows a **component-based architecture**:
+
+* Reusable UI components (KpiCard, OrdersTable, Charts)
+* Layout system for consistent structure
+* Page-level component (Dashboard.jsx)
+* API simulation layer for data handling
+* State management using React Hooks
+
+This structure ensures scalability and maintainability.
+
+---
+
+##  Objective
+
+To build a scalable, modern, and visually appealing dashboard UI that mimics real-world applications and demonstrates frontend development skills.
+
+---
+
+##  Author
+
+Akshay K
